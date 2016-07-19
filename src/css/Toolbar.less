@@ -1,0 +1,34 @@
+@date-picker-icon-size: 25px;
+
+.toolbar {
+    position: absolute;
+    padding: 8px;
+    z-index: 1;
+    display: table;
+
+    .valign {
+        vertical-align: middle;
+        display: table-cell;
+    }
+
+    .datePickerBtn {
+        padding: 10px;
+        cursor: pointer;
+
+        img {
+            width: @date-picker-icon-size;
+            height: @date-picker-icon-size;
+        }
+        
+        .datePicker {
+            position: absolute;
+        }
+    }
+
+    .counterLabel {
+        .showAllBtn {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}
